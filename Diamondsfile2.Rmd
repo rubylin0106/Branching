@@ -1,0 +1,13 @@
+---
+title: "Diamondsfile2"
+author: "Lin Pin Tzu (Ruby)"
+date: '2022-08-03'
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(dplyr)
+diamonds%>%
+select(price, color, x)
+```
